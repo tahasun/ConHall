@@ -4,12 +4,26 @@
   border-radius: 0;
 }
 
+.fa-1x {
+font-size: 1.1rem;
+}
+
+.white-text {
+  color: #fff;
+}
+
 .navbar.solid {
   background-color: #002F65;;
 }
 
-.nav-link, .navbar-brand {
+.navbar-custom .navbar-nav .custom-link {
   color: white;
+  transition: all 1s;
+  z-index: 100;
+}
+
+.navbar-custom .navbar-nav .custom-link:hover {
+  color: yellow;
 }
 
 /* Add a gray background color and some padding to the footer */
@@ -33,6 +47,7 @@ footer {
         text-align: center;
     }
 }
+
 #slide1{
   background-image:
   linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0)),
