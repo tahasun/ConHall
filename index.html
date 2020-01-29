@@ -4,12 +4,24 @@
   <title>Convocation Hall</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
 
   <!-- Font Awesome Hamburger menu icon -->
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
@@ -36,8 +48,8 @@
 
   <div class="navbar-collapse collapse dual-nav w-50 order-2">
     <ul class="nav navbar-nav ml-auto">
-      <li class="nav-item"><a class="nav-link h7" href="#">FAQ</a></li>
-      <li class="nav-item"><a class="nav-link h7" href="#">Contact</a></li>
+      <li class="nav-item"><a class="nav-link h7 custom-link" href="#">FAQ</a></li>
+      <li class="nav-item"><a class="nav-link h7 custom-link" href="#">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -77,33 +89,123 @@
     </a>
 </div>
 
-<div class="container text-center">
-  <h3>What We Do</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Current Project</p>
-    </div>
-    <div class="col-sm-4">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>
-    </div>
-    <div class="col-sm-4">
-      <div class="well">
-       <p>Some text..</p>
-      </div>
-      <div class="well">
-       <p>Some text..</p>
-      </div>
-    </div>
-  </div>
-</div><br>
+  <div class="container mt-5 px-5 pt-5 pb-3 z-depth-1">
 
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
+
+    <!--Section: Content-->
+    <section class="text-center dark-grey-text">
+
+      <h6 class="font-weight-normal text-uppercase font-small grey-text mb-4">Features</h6>
+      <!-- Section heading -->
+      <h2 class="font-weight-bold">More Than You Think</h2>
+      <hr class="w-header my-4">
+      <!-- Section description -->
+      <p class="text-muted mx-auto mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id laborum.</p>
+
+      <div class="row text-center d-flex justify-content-center">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="view card-img-100 mx-auto mb-4">
+            <img src="https://mdbootstrap.com/img/illustrations/drawkit-drawing-man-colour.svg" class="img-fluid" alt="smaple image">
+          </div>
+          <h5 class="font-weight-normal mb-4">Be the first</h5>
+          <p class="text-muted px-2 mb-lg-0">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="view card-img-100 mx-auto mb-4">
+            <img src="https://mdbootstrap.com/img/illustrations/drawkit-phone-conversation-colour.svg" class="img-fluid" alt="smaple image">
+          </div>
+          <h5 class="font-weight-normal mb-4">Skyrocket You Sells</h5>
+          <p class="text-muted px-2 mb-lg-0">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="view card-img-100 mx-auto mb-4">
+            <img src="https://mdbootstrap.com/img/illustrations/app-user-colour.svg" class="img-fluid" alt="smaple image">
+          </div>
+          <h5 class="font-weight-normal mb-4">Acquire Potential Users</h5>
+          <p class="text-muted px-2 mb-md-0">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+
+    </section>
+    <!--Section: Content-->
+
+
+  </div>
+
+  <!-- Footer -->
+<footer class="container-fluid page-footer bg-navy text-white">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center">
+
+    <!-- Grid row -->
+    <div class="container-fluid row ml-0 text-left">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mb-md-0 mb-4 ">
+       <!-- Address -->
+       <h3 class="text-uppercase font-weight-bold h6">Address</h3>
+       <address class="">
+        31 Kings' College Circle, <br>
+        Toronto, Ontario, M5S1A1
+       </address>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix bt-navy-grey w-100 d-md-none"> <!--mb view stack components-->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mb-4">
+        <!-- Links -->
+        <h3 class="text-uppercase text-heading h6">Useful links</h3>
+        <h4 class="text-capitalize h6">Visit our main website </h4>
+        <a href="#!">Academic and Campus Events</a>
+        <h4 class="text-capitalize h6">Looking for the Convocation office?</h4>
+        <a href="#!">Office of Convocation</a>
+        <h4 class="text-capitalize h6">Find a parking spot on campus</h4>
+        <a href="#!">Parking on Campus</a>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mb-md-0 mb-4">
+       <!-- Links -->
+       <h3 class="text-uppercase font-weight-bold h6">Contact</h3>
+       <p><i class="fas fa-envelope mr-3"></i>campusevents@utoronto.ca</p>
+       <p>
+         <i class="fas fa-phone mr-3"></i> +1 416 978 8560</p>
+       <p>
+     </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="container-fluid footer-copyright text-left small py-1">
+    © 2020 Copyright:
+    <a href="ace.utoronto.ca"> Academic & Campus Events University of Toronto </a>
+  </div>
+  <!-- Copyright -->
 
   <script src="js/scroll-navbar.js"></script>
 </footer>
+
+<!-- Footer -->
 
 </body>
 </html>

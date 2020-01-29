@@ -12,6 +12,18 @@ font-size: 1.1rem;
   color: #fff;
 }
 
+.bg-navy{
+  background-color: #061627;
+}
+
+hr.bt-navy-grey{
+  border-top: 1px solid rgbargb(6,22,39, 0.2);
+}
+
+.text-paragraph{
+
+}
+
 .navbar.solid {
   background-color: #002F65;;
 }
