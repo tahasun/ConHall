@@ -74,7 +74,7 @@ font-size: 1.5rem;
 }
 
 /* ....................... Carousel Styling ....................... */
-.carousel-inner img {
+.carousel-full.carousel-inner img {
   width: 100%; /* Set width to 100% */
   margin: auto;
   min-height:200px;
@@ -116,4 +116,9 @@ font-size: 1.5rem;
 .hero-title{
   border: 2px solid white;
   width: 20%;
+}
+
+/* Image Gallery */
+.imageGallery > a {
+
 }
