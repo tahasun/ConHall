@@ -108,13 +108,12 @@ font-size: 1.5rem;
 }
 
 .hero-rental {
-  background-image: linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0)),
+  background-image: linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0.3)),
   url("../images/cover.png");
   background-size: cover;
 }
 
 .hero-title{
   border: 2px solid white;
-  padding: 2vh 2vw;
   width: 20%;
 }
