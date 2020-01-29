@@ -2,11 +2,21 @@ html, body {
   color: #002A5C;
 }
 
+h1, h2 {
+  font-family: 'Cinzel', serif;
+}
+
+/* .................... Navigation Bar Styling .................... */
+
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
   font-family: 'Cinzel', serif;
+}
+
+.navbar.solid {
+  background-color: #002F65;;
 }
 
 /* Brand Style */
@@ -19,12 +29,21 @@ html, body {
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255), rgba(0, 0, 0, 0));
 }
-/* *********** */
+
+/* Hamburger Menu */
+.fa-1x {
+font-size: 1.5rem;
+}
 
 /* Menu item Styling  */
-
 .custom-link{
     position: relative;
+}
+
+.navbar-custom .navbar-nav .custom-link {
+  color: white;
+  transition: all 1s;
+  z-index: 100;
 }
 
 .custom-link:before {
@@ -44,16 +63,7 @@ html, body {
   width: 100%;
 }
 
-/* ****************** */
-
-h1, h2 {
-  font-family: 'Cinzel', serif;
-}
-
-.fa-1x {
-font-size: 1.5rem;
-}
-
+/* ....................................................................... */
 
 .bg-navy{
   background-color: #061627;
@@ -63,42 +73,11 @@ font-size: 1.5rem;
   border-top: 1px solid rgba(255,255,255,0.3);
 }
 
-.text-paragraph{
-
-}
-
-.navbar.solid {
-  background-color: #002F65;;
-}
-
-.navbar-custom .navbar-nav .custom-link {
-  color: white;
-  transition: all 1s;
-  z-index: 100;
-}
-
-
-
-/* Add a gray background color and some padding to the footer */
-footer {
-  background-color: #f2f2f2;
-  padding: 25px;
-}
-
+/* ....................... Carousel Styling ....................... */
 .carousel-inner img {
   width: 100%; /* Set width to 100% */
   margin: auto;
   min-height:200px;
-}
-
-@media (min-width: 768px) {
-.navbar-brand.abs
-    {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        text-align: center;
-    }
 }
 
 #slide1{
