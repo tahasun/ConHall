@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Convocation Hall</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/timeline.css">
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
+
+  <!-- Font Awesome Hamburger menu icon -->
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+  <!-- Lightbox -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-custom">
+    <div class="container">
+        <div class="navbar-brand">
+          <img tabindex="0" role="link"
+              onclick="goToLink(event, 'https://www.utoronto.ca/')"
+              onkeydown="goToLink(event, 'https://www.utoronto.ca/')"
+              src="images/icons/uoft-logo-white.svg" alt="University of Toronto"/>
+          <hr role="separator" class="my-0" id="gradientDivider">
+          <img id="tes_logo" tabindex="0" role="link"
+              onclick="goToLink(event, 'index.html')"
+              onkeydown="goToLink(event, 'index.html')"
+              src="images/icons/conhall-logo-white.svg" alt="Convocation Hall"/>
+        </div>
+
+        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#MenuBar">
+          <span class="text-white"><i class="fas fa-bars fa-1x"></i></span>
+        </button>
+        <div class="navbar-collapse collapse" id="MenuBar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="rental.html">Rental</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="visit.html">Visit</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link active" href="history.html">History</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="accessibility.html">Accessibility</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="faq.html">FAQ</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Image -->
+<div class="card card-image hero-container hero-history d-flex flex-column
+            text-white text-center align-items-center justify-content-end">
+      <!-- Content -->
+  <h1 class="h2 my-4 py-2 hero-title .d-none .d-sm-block">History</h1>
+  <p class="mb-5 pb-2 px-lg-5 mx-md-5 .d-none .d-lg-block">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+    obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam,
+    modi qui quidem minima debiti.
+  </p>
+</div>
+<!-- Hero Image -->
+
+<div class="timeline d-flex flex-column p-5">
+    <div class="row d-flex flex-row justify-content-center">
+      <div class="left d-flex flex-column align-items-center pr-sm-2"
+           aria-labelledby="label1">
+          <div class="circle-img large img-fluid max-width rounded-circle"
+          style="background-image: url(images/history/1906-uoft-archives.jpg);">
+          </div>
+        <h3 id="label1">Established in 1907</h3>
+        <p>
+          The University of Toronto Alumni Association raised more than $50,000
+          (nearly $1 million in today's dollars) for its construction, an amount
+          that was matched by the Province.
+        </p>
+        <p>
+          The Alumni Association wanted to honour the University degree properly
+          with this new magnificant Convocation Hall. Moreover, the Hall was
+          meant to provide a space for students to congregate for social and
+          academic matters.
+        </p>
+      </div>
+
+      <div class="right d-flex flex-column align-items-center pl-sm-3"
+      aria-labelledby="label2">
+        <h2 class="text-center" id="label2">1900's</h2>
+        <div class="icons" role="image" aria-label="icons of 4 men">
+          <img src="images/icons/man-icon.png" alt="man">
+          <img src="images/icons/man-icon.png" alt="man">
+          <img src="images/icons/man-icon.png" alt="man">
+          <img src="images/icons/man-icon.png" alt="man">
+        </div>
+        <p>
+          <strong>650 students Graduated in 1906</strong>
+          in Convocation Hall when it was under construction
+        </p>
+      </div>
+    </div>
+
+    <div class="row d-flex flex-row justify-content-center">
+      <div class="left d-flex flex-column align-items-center pr-sm-2"
+           aria-labelledby="label4">
+        <h2 class="text-center" id="label3">1920's</h2>
+          <div class="circle-img large img-fluid max-width rounded-circle"
+          style="background-image: url(images/history/1923-uoft-archives.jpg);">
+          </div>
+        <h3 id="label4">1923 Convocation garden party</h3>
+        <p>
+          The University of Toronto Students' Union hosted Garden Parties
+          following the conferring of degrees.
+        </p>
+        <div class="icons" role="image" aria-label="icons of 1 woman and 3 men">
+          <img src="images/icons/woman-icon.png" alt="man">
+          <img src="images/icons/man-icon.png" alt="man">
+          <img src="images/icons/man-icon.png" alt="man">
+          <img src="images/icons/man-icon.png" alt="man">
+        </div>
+        <p>
+          1 in 4 of the graduating class were women
+        </p>
+      </div>
+      <div class="right d-flex flex-column align-items-center pl-sm-3"
+      aria-labelledby="label3">
+        <h2 class="text-center" id="label6">1950's</h2>
+          <div class="circle-img large img-fluid max-width rounded-circle"
+               style="background-image: url(images/history/1952-Orchestra-rehearsal-uoft-archives.jpg);"></div>
+        <h3 id="label5">U of T Symphony Orchestra rehearsing at Convocation Hall</h3>
+        <p>
+          The UofT Orchestra and Chorus gave two concerts in Convocation Hall,
+          which were largely attended by members of staff and student body of
+          the University
+        </p>
+      </div>
+
+    </div>
+
+    <div class="row d-flex flex-row justify-content-center">
+      <div class="left d-flex flex-column align-items-center pr-sm-2"
+           aria-labelledby="label6">
+        <h2 class="text-center">1960's</h2>
+        <div class="circle-img large img-fluid max-width rounded-circle" style="background-image: url(images/history/1965-vietnam-war-protest-uoft-archive.jpg);"></div>
+        <h3>Protest Against the Vietnam War in front of Convocation Hall</h3>
+        <div class="circle small" style="background-image: url(images/history/1969-uoft-archives.jpg);"></div>
+        <p>
+          In the fall of 1968 R. Buckminster Fuller was invited to deliver the
+          first of a series of annual lectures. After spending some time with
+          the students and talking about his urban renewal proposals for downtown
+          Toronto, Dr. Fuller gave an extended dissertation to a very large
+          audience in convocation Hall.
+        </p>
+      </div>
+      <div class="right d-flex flex-column align-items-center pl-sm-3"
+           aria-labelledby="label5">
+
+        <h2 class="text-center">1970's</h2>
+        <div class="circle-img large img-fluid max-width rounded-circle" style="background-image: url(images/history/1972-Pauline-Gibbons-uoft-archives.jpg);"></div>
+        <p>
+          The Alumni Association wanted to honour the University degree properly
+          with this new magnificant Convocation Hall. Moreover, the Hall was meant
+          to provide a space for students to congregate for social and academic
+          matters.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="row d-flex flex-row justify-content-center">
+      <div class="left d-flex flex-column align-items-center pr-sm-2"
+           aria-labelledby="label6">
+        <h2 class="text-center">1980's</h2>
+        <div class="circle-img large img-fluid max-width rounded-circle" style="background-image: url(images/history/1984-pierre-elliott-trudeau.png);"></div>
+        <p>
+          Pierre Elliott Trudeau reminisced on his sixteen rows as Prime Minister
+          in front of a capacity crowd at Convocation Hall in 1984. Trudeau
+          participated in a question and answer session sponsored by the Young
+          Liberals of University of Toronto.
+        </p>
+      </div>
+      <div class="right d-flex flex-column align-items-center pl-sm-3">
+        <h2 class="text-center">1990's</h2>
+        <p>
+          Members of the Toronto region of Canadian Union of Public Employees
+          which includes UofT’s teaching assistants, library workers and
+          maintenance employees, gathered at Convocation Hall to discuss and
+          vote to stop Bill 136.
+        </p>
+      </div>
+    </div>
+
+    <div class="row d-flex flex-row justify-content-center">
+
+      <div class="left d-flex flex-column align-items-center pr-sm-2">
+        <h2 class="text-center">2000's</h2>
+        <p>
+          In 2006, a major restoration and refurbishment was undertaken by E.R.A
+          Architects with funding from the alumni association. Work entailed
+          refurbishing seats, restoration of grandeur of the circular foyer
+          including decorative finishes, historical millwork, lighting
+          installations, installing accessible washrooms and a fresh coat of
+          paint, and restoration of the historic pipe organ—the fifth largest in
+          Toronto
+        </p>
+      </div>
+      <div class="right d-flex flex-column align-items-center pl-sm-3">
+
+      </div>
+    </div>
+
+  </div>
+
+<footer class="container-fluid page-footer p-5 bg-navy text-white">
+  <!-- Footer Links -->
+  <div class="container-fluid text-center">
+    <!-- Grid row -->
+    <div class="container-fluid ml-0 text-center row d-flex justify-content-center">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mb-md-0 mb-4 ">
+       <!-- Address -->
+       <h3 class="text-uppercase h5">Address</h3>
+       <address class="">
+        31 Kings' College Circle, <br>
+        Toronto, Ontario, M5S1A1
+       </address>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix bt-navy-grey y w-100 d-md-none"> <!--mb view stack components-->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mb-4">
+        <!-- Links -->
+        <h3 class="text-uppercase text-heading h5">Useful links</h3>
+        <h4 class="text-capitalize h5">Visit our main website </h4>
+        <a href="#!">Academic and Campus Events</a>
+        <h4 class="text-capitalize h5">Looking for the Convocation office?</h4>
+        <a href="#!">Office of Convocation</a>
+        <h4 class="text-capitalize h5">Find a parking spot on campus</h4>
+        <a href="#!">Parking on Campus</a>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 bt-navy-grey d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mb-md-0 mb-4">
+       <!-- Links -->
+       <h3 class="text-uppercase h5">Contact</h3>
+       <p><i class="fas fa-envelope mr-3"></i>campusevents@utoronto.ca</p>
+       <p>
+         <i class="fas fa-phone mr-3"></i> +1 416 978 8560</p>
+       <p>
+     </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+
+  <!-- Copyright -->
+  <div class="container-fluid text-muted footer-copyright text-left small ml-auto py-1">
+    © 2020 Copyright:
+    <a href="ace.utoronto.ca"> Academic & Campus Events University of Toronto </a>
+  </div>
+
+  <script src="js/scroll-navbar.js"></script>
+  <!-- ** Lightbox Script ** -->
+	<script>
+		$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+		  event.preventDefault();
+		  $(this).ekkoLightbox();
+		});
+	</script>
+</footer>
+
+</body>
+</html>

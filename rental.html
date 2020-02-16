@@ -52,12 +52,12 @@
         </button>
         <div class="navbar-collapse collapse" id="MenuBar">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link active" href="#">Rental</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="#">Visit</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="#">History</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="#">Accessibility</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="#">FAQ</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="#">Contact</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link active" href="rental.html">Rental</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="visit.html">Visit</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="history.html">History</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="accessibility.html">Accessibility</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="faq.html">FAQ</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -65,19 +65,19 @@
 
 <!-- Hero Image -->
 <div class="card card-image hero-container hero-rental d-flex flex-column mb-4
-            text-white text-center align-items-center justify-content-center">
+            text-white text-center align-items-center justify-content-end">
       <!-- Content -->
-  <h1 class="h2 my-4 py-2 hero-title">Rental</h1>
-  <p class="mb-4 pb-2 px-lg-5 mx-md-5">Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit. Pariatur obcaecati vero aliquid libero doloribus ad, unde
-    tempora maiores, ullam, modi qui quidem minima debitis perferendis vitae
-    cumque et quo impedit.
+  <h1 class="h2 my-4 py-2 hero-title .d-none .d-sm-block">Rental</h1>
+  <p class="mb-5 pb-2 px-lg-5 mx-md-5 .d-none .d-lg-block">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+    obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam,
+    modi qui quidem minima debiti.
   </p>
 </div>
 <!-- Hero Image -->
 
 <div class="container imageGallery py-5">
-  <h2 class="text-center text-uppercase" >Gallery</h2>
+  <h2 class="text-center h3 text-uppercase" >Gallery</h2>
   <div class="row">
     <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4 mb-4">
       <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
@@ -103,26 +103,100 @@
 </div>
 
 <div class="container">
-  <h2>Rates & AV</h2>
+  <h2 class="h3 text-uppercase">Rates & AV</h2>
   <p>
     <mark>For internal rates please contact us.</mark>
     For additional and custom services, ACE will be happy to accomodate requests and provide quotes.
   </p>
-  <ul class="nav nav-tabs">
-    <li><a class="h5 p-2 active" data-toggle="tab" href="#home">External Rates</a></li>
-    <li><a class="h5 p-2" data-toggle="tab" href="#menu1">AV & Tech</a></li>
+  <ul class="nav nav-tabs custom-nav-tabs mb-2">
+    <li><a class="h5 p-2 custom-tab active" data-toggle="tab" href="#rate">External Rates</a></li>
+    <li><a class="h5 p-2 custom-tab" data-toggle="tab" href="#av">AV & Tech</a></li>
   </ul>
 
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active show">
+  <div class="tab-content pb-4">
+    <div id="rate" class="tab-pane fade in active show">
       <h3>External Rates</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <table>
+				<caption class="sr-only">Rental Requirements</caption>
+				<tr>
+					<th>Half Day Rental</th>
+					<td>$3000</td>
+				</tr>
+				<tr>
+					<th>Full Day Rental</th>
+					<td>$4000</td>
+				</tr>
+				<tr>
+					<th>Usher Staffing <br>
+          <em class="font-weight-light">The amount of Ushers hired for each event varies</em></th>
+					<td>$20/hour*</td>
+				</tr>
+				<tr>
+					<th>Front of House Manager</th>
+					<td>$30/hour</td>
+				</tr>
+				<tr>
+					<th>Audio and Visual Services <br> <em class="font-weight-light">Projection, audio and lighting</em> </th>
+					<td>$650</td>
+				</tr>
+				<tr>
+					<th>A/V Technicians</th>
+					<td>$50/hour*</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="left">
+            <em class="font-weight-light">Minimum of two A/V technicians required
+						(most events will require 3 A/V technicians)</em></td>
+				</tr>
+				<tr>
+					<th> Caretaking <br> <em class="font-weight-light">Rates increase for Sunday Service</em> </th>
+					<td>$50/hour*</td>
+				</tr>
+				<tr>
+					<th>Campus Police <br><em class="font-weight-light">For event traffic management</em> </th>
+					<td>$77/hour*</td>
+				</tr>
+			</table>
     </div>
-    <div id="menu1" class="tab-pane fade">
+    <div id="av" class="tab-pane fade">
       <h3>AV & Tech</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <table>
+				<caption class="sr-only">Additional Services</caption>
+				<tr>
+					<th>Centre Screen Removal</th>
+					<td class="px-4">$500</td>
+				</tr>
+				<tr>
+					<th>Lectern/Teaching Station Removal</th>
+					<td class="px-4">$4000</td>
+				</tr>
+				<tr>
+					<th>Red Leather Chair Rental</th>
+					<td class="px-4">$15/per chair</td>
+				</tr>
+				<tr>
+					<th>Table Rental <br> <em class="font-weight-light">Includes black linen</em> </th>
+					<td class="px-4">$10/per table</td>
+				</tr>
+				<tr>
+					<th>Additional Table Rental</th>
+					<td class="px-4">$5/chair</td>
+				</tr>
+				<tr>
+					<td colspan="2"> <em class="font-weight-light">Includes white bistro chairs and metal folding</em> </td>
+				</tr>
+				<tr>
+					<th>Wireless Internet <br> <em class="font-weight-light">Includes personalized login and password</em> </th>
+					<td class="px-4">$200</td>
+				</tr>
+			</table>
     </div>
   </div>
+  <p>
+    *rates are to reflect the four hour minimum union policy <br>
+    Please note the rate card is a guideline and full event costs to be
+    confirmed based on proposed event
+  </p>
 </div>
 
 <footer class="container-fluid page-footer mt-5 p-5 bg-navy text-white">
