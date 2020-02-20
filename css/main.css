@@ -142,7 +142,7 @@ font-size: 1.5rem;
 
 .hero-visit {
   background-image: linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0.3)),
-  url("../images/cover/columns.png");
+  url("../images/cover/stairs.png");
   background-size: cover;
 }
 
@@ -273,3 +273,119 @@ h3 {
 .right {
   flex: 1 1;
 }
+
+/*--------- Accessible Accordion Styling ---------*/
+.Accordion {
+  margin: 30px 0px;
+}
+
+.Accordion > * + * {
+    border-top: 1px solid hsl(0, 0%, 82%);
+}
+
+.Accordion-trigger {
+    background: none;
+    color: #002A5C;
+    display: block;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+    position: relative;
+    text-align: left;
+    width: 100%;
+
+    border-top: 1px solid #383F51;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.Accordion-trigger:focus,
+.Accordion-trigger:hover {
+    background: hsl(0, 0%, 93%);
+}
+
+.Accordion-title {
+  display: block; /* For Edge bug https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/8295099/ */
+  pointer-events: none;
+  font-size: 18px;
+  text-align: left;
+}
+
+
+.Accordion-icon {
+    border: solid hsl(0, 0%, 62%);
+    border-width: 0 2px 2px 0;
+    height: .5rem;
+    pointer-events: none;
+    position: absolute;
+    right: 1.5em;
+    top: 50%;
+    transform: translateY(-60%) rotate(45deg);
+    width: .5rem;
+}
+
+.Accordion-trigger:focus .Accordion-icon,
+.Accordion-trigger:hover .Accordion-icon {
+    border-color: hsl(0, 0%, 13%);
+}
+
+.Accordion-trigger[aria-expanded="true"] .Accordion-icon {
+    transform: translateY(-50%) rotate(-135deg);
+}
+
+.Accordion-panel {
+    margin: 0;
+    padding: 0vh 1vw;
+    font-size: 18px;
+}
+
+.Accordion-panel a{
+  text-decoration: underline;
+  float: none;
+  color: #456488;
+  font-weight: bold;
+}
+
+.panel a:hover, .panel a:focus{
+  color: #00142A;
+  border: none;
+}
+.panel a:focus{
+  color: #00142A;
+  border: none;
+}
+
+/* For Edge bug https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/4806035/ */
+.Accordion-panel[hidden] {
+  display: none;
+}
+
+.Accordion-panel:last-of-type {
+  border-bottom: 1px solid #383F51;
+}
+
+dt:last-of-type{
+  border-bottom: 1px solid hsl(0, 0%, 82%);
+}
+/*            Accordion Styling End            */
+.card > img {
+  width: auto;
+  height: 100%;
+}
+
+.washroom-tile {
+  color: #3A3A3A;
+  box-shadow: none;
+  /* Parallax scroll Background */
+  background: url("../images/textures/white_tiles.png");
+  background-repeat: round;
+  background-attachment: fixed; /*Important for parallax scroll*/
+}
+
+.icon-link{
+  color: #002f65;
+}
+.material-icons.md-48 { font-size: 48px; }

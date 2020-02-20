@@ -84,6 +84,55 @@
   <!--Section: Content-->
   <p>Aenean aliquet consequat sagittis. Curabitur a est eget quam pellentesque dignissim. Praesent euismod eu augue efficitur dictum. Nulla sit amet tortor condimentum, accumsan nulla eget, pellentesque diam. Donec est nulla, fringilla quis urna vel, auctor semper neque. Aliquam blandit vitae arcu et laoreet. Nunc sollicitudin egestas egestas. Sed efficitur libero quam, a blandit orci tempus placerat. Nunc pellentesque bibendum mauris, non facilisis nibh consequat nec. Sed venenatis risus diam, at iaculis ligula egestas non. Nam maximus, metus sit amet fringilla consectetur, ex erat aliquam quam, eu commodo nunc velit id neque.</p>
   <!--Section: Content-->
+<!-- Accordion  -->
+  <dl role="presentation" class="Accordion" data-allow-toggle>
+    <!-- panel1 -->
+    <dt role="heading" aria-level="3">
+      <button class="Accordion-trigger" aria-expanded="false" type="button"
+              aria-controls="sect1" id="accordion1id">
+        <h2 class="Accordion-title">Title 1</h2>
+        <span class="Accordion-icon"></span>
+      </button>
+    </dt>
+    <!-- panel1 -->
+    <dd class="Accordion-panel" id="sect1" role="region" hidden=""
+        aria-labelledby="accordion1id">
+      <div> Content 1</div>
+    </dd>
+
+    <dt role="heading" aria-level="3">
+    <!-- Panel2 -->
+      <button class="Accordion-trigger" aria-controls="sect2" type="button"
+              aria-expanded="false" id="accordion2id">
+        <h2 class="Accordion-title">Title 2</h2>
+        <span class="Accordion-icon"></span>
+      </button>
+    </dt>
+    <dd id="sect2" role="region" aria-labelledby="accordion2id" hidden=""
+        class="Accordion-panel">
+      <!-- Panel 2 -->
+      <div>
+        Content 2
+      </div>
+    </dd>
+    <dt role="heading" aria-level="3">
+      <!-- Panel 3 -->
+      <button aria-expanded="false" class="Accordion-trigger" type="button"
+              aria-controls="sect3" id="accordion3id">
+        <h2 class="Accordion-title">Title 3</h2>
+        <span class="Accordion-icon"></span>
+      </button>
+    <dt>
+    <dd id="sect3" role="region" aria-labelledby="accordion3id" hidden=""
+        class="Accordion-panel">
+      <!-- Panel 3 -->
+      <div>
+        Content 3
+      </div>
+    </dd>
+
+  </dl>
+  <!-- End of Accordion -->
 </div>
 
 <footer class="container-fluid page-footer px-0 bg-navy text-white">
@@ -142,6 +191,8 @@
   </div>
   <script src="js/main.js"></script>
   <script src="js/scroll-navbar.js"></script>
+  <!-- Accordion javascript -->
+  <script src="js/accessible-accordion.js"></script>
 </footer>
 <script>
   var rellax = new Rellax('.rellax');

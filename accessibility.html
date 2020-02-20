@@ -24,7 +24,8 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <!-- Font Awesome Hamburger menu icon -->
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <!-- Parallax Effect -->
@@ -67,18 +68,90 @@
 <!-- Hero Container -->
 <div class="card card-image hero-container hero-access d-flex flex-column mb-4
             text-white text-center align-items-center justify-content-end rellax"
-            data-rellax-speed="-1" data-rellax-zindex="1">>
+            data-rellax-speed="-1" data-rellax-zindex="1">
 </div>
 <!-- Hero Container -->
 
 <!-- Anchor to skip to main content -->
 <div id="maincontent" tabindex="-1" class="custom-anchor"></div>
 
-<div class="container-fluid my-5 px-5 pt-5 pb-5 rellax" style="background: white;"
+<div class="container-fluid my-5 py-5 rellax px-0" style="background: white;"
      data-rellax-speed="5" data-rellax-zindex="5">
-     <!--Section: Content-->
-     <p>Aenean aliquet consequat sagittis. Curabitur a est eget quam pellentesque dignissim. Praesent euismod eu augue efficitur dictum. Nulla sit amet tortor condimentum, accumsan nulla eget, pellentesque diam. Donec est nulla, fringilla quis urna vel, auctor semper neque. Aliquam blandit vitae arcu et laoreet. Nunc sollicitudin egestas egestas. Sed efficitur libero quam, a blandit orci tempus placerat. Nunc pellentesque bibendum mauris, non facilisis nibh consequat nec. Sed venenatis risus diam, at iaculis ligula egestas non. Nam maximus, metus sit amet fringilla consectetur, ex erat aliquam quam, eu commodo nunc velit id neque.</p>
-     <!--Section: Content-->
+     <div class="d-flex flex-row justify-content-center">
+       <a class="icon-link p-4 m-3 d-flex flex-column align-items-center" target="_blank"
+       href="https://www.google.com/maps/dir//Convocation+Hall,+31+King's+College+Cir,+Toronto,+ON+M5S+1A1">
+         <i class="material-icons md-48 md-dark" alt="train front side">train</i>
+         <h2 class="h4">Getting Here</h2>
+       </a>
+       <a class="icon-link p-4 m-3 d-flex flex-column align-items-center" href="http://map.utoronto.ca/parking"
+          target="_blank">
+          <i class="material-icons md-48 md-dark" alt="capital letter P">local_parking</i>
+         <h2 class="h4">Find Parking</h2>
+       </a>
+     </div>
+
+     <div class="card-deck mx-4 my-4 py-4">
+       <!-- Card 1 -->
+       <div class="card p-3">
+         <div class="row">
+           <div class="col">
+             <img src="images/acc_door.png" alt="">
+           </div>
+           <div class="col">
+             <h2 class="card-title h4">Accessible Entrance</h2>
+             <p>
+               Dark wood door between collonade and Simcoe hall entrance, Faces
+               north towards the field and has designated parking directly
+               infront of it
+             </p>
+             <ul>
+               <li>entrance at grade, with more powerful doors inside</li>
+               <li>accessible washroom to right inside this entrance</li>
+               <li>leads to main rotunda (turn left once inside)</li>
+             </ul>
+           </div>
+         </div>
+       </div>
+
+       <!-- Card 2 -->
+       <div class="card p-3">
+         <div class="row">
+           <div class="col">
+             <img src="images/doors.png" alt="">
+           </div>
+           <div class="col">
+             <h2 class="card-title h4">Main Entrance</h2>
+             <p>
+               There are 3 more wood doors on the SE side, facing King's College
+               Road, generally used as exit doors
+             </p>
+             <ul>
+               <li>3 wood doors under the column facing the field</li>
+               <li>2 steps up from the road (King's College Circle) leads to the
+                   interior rotunda</li>
+                <li>heavy manual doors which are not powered</li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="jumbotron jumpotron-fluid washroom-tile">
+       <div class="row">
+         <div class="col">
+           photo here
+         </div>
+         <div class="col">
+           <div class="row">
+             <h3>Universal Washroom</h3>
+           </div>
+           <div class="row">
+             <h3>Main Washroom</h3>
+           </div>
+         </div>
+       </div>
+     </div>
+
 </div>
 
  <footer class="container-fluid page-footer px-0 bg-navy text-white">
