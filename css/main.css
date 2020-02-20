@@ -40,8 +40,9 @@ font-size: 1.5rem;
     position: relative;
 }
 
-.custom-link.active{
-    color: rgba(255,255,255,0.7);
+.navbar-custom .navbar-nav .nav-item .custom-link.active{
+  /* color: red; */
+  color: rgba(255,255,255,0.7);
 }
 
 .navbar-custom .navbar-nav .custom-link {
@@ -62,7 +63,7 @@ font-size: 1.5rem;
   transition: all 0.3s ease-in-out;
 }
 
-.custom-link:hover:before, .custom-link:focus:before {
+.custom-link:hover:before, .custom-link:focus:before, .custom-link.active:before {
   visibility: visible;
   width: 100%;
 }
@@ -117,9 +118,21 @@ font-size: 1.5rem;
   background-size: cover;
 }
 
+.hero-contact {
+  background-image: linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0.3)),
+  url("../images/cover/columns.png");
+  background-size: cover;
+}
+
 .hero-history {
   background-image: linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0.3)),
   url("../images/cover/history.jpg");
+  background-size: cover;
+}
+
+.hero-access {
+  background-image: linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0.3)),
+  url("../images/cover/sign-2-cover.png");
   background-size: cover;
 }
 
