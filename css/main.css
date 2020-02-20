@@ -142,7 +142,7 @@ font-size: 1.5rem;
 
 .hero-visit {
   background-image: linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0.3)),
-  url("../images/cover/sign-1-cover.png");
+  url("../images/cover/columns.png");
   background-size: cover;
 }
 
@@ -232,8 +232,10 @@ h3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.img-fluid.max-width
-{ 100%;}
+.img-fluid
+{ max-width: 100%;
+  height: auto;
+}
 
 .large {
   height: 250px;
