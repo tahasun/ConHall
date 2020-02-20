@@ -136,6 +136,18 @@ font-size: 1.5rem;
   background-size: cover;
 }
 
+.hero-visit {
+  background-image: linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0.3)),
+  url("../images/cover/sign-1-cover.png");
+  background-size: cover;
+}
+
+.hero-faq {
+  background-image: linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0.3)),
+  url("../images/cover/door-cover.png");
+  background-size: cover;
+}
+
 .hero-title{
   border: 2px solid white;
   width: 20%;
