@@ -6,6 +6,10 @@ h1, h2 {
   font-family: 'Cinzel', serif;
 }
 
+.custom-anchor {
+  position: relative;
+  top: -150px;
+}
 /* .................... Navigation Bar Styling .................... */
 
 /* Remove the navbar's default margin-bottom and rounded borders */
