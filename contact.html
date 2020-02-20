@@ -25,7 +25,8 @@
 
   <!-- Font Awesome Hamburger menu icon -->
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-
+  <!-- Parallax Effect -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js"></script>
 </head>
 <body>
 <a href="#maincontent" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -63,7 +64,8 @@
 <!-- Hero Container -->
 <div class="card card-image hero-container hero-contact d-flex flex-column mb-4
             text-white text-center align-items-center justify-content-end
-            rounded-0">
+            rounded-0 rellax"
+            data-rellax-speed="-1" data-rellax-zindex="1">
       <!-- Content -->
   <h1 class="h2 my-4 py-2 hero-title .d-none .d-sm-block">Get in Touch</h1>
   <p class="mb-5 pb-2 px-lg-5 mx-md-5 .d-none .d-lg-block">
@@ -75,15 +77,17 @@
 <!-- Anchor to main content -->
 <div id="maincontent" tabindex="-1" class="custom-anchor"></div>
 
-<div class="container my-5 px-5 pt-5 pb-5 z-depth-1">
+<div class="container-fluid my-5 px-5 pt-5 pb-5 rellax" style="background: white;"
+     data-rellax-speed="5" data-rellax-zindex="5" >
   <!--Section: Content-->
+  <p>Aenean aliquet consequat sagittis. Curabitur a est eget quam pellentesque dignissim. Praesent euismod eu augue efficitur dictum. Nulla sit amet tortor condimentum, accumsan nulla eget, pellentesque diam. Donec est nulla, fringilla quis urna vel, auctor semper neque. Aliquam blandit vitae arcu et laoreet. Nunc sollicitudin egestas egestas. Sed efficitur libero quam, a blandit orci tempus placerat. Nunc pellentesque bibendum mauris, non facilisis nibh consequat nec. Sed venenatis risus diam, at iaculis ligula egestas non. Nam maximus, metus sit amet fringilla consectetur, ex erat aliquam quam, eu commodo nunc velit id neque.</p>
 
   <!--Section: Content-->
 </div>
 
-<footer class="container-fluid page-footer p-5 bg-navy text-white">
+<footer class="container-fluid page-footer px-0 bg-navy text-white">
   <!-- Footer Links -->
-  <div class="container-fluid text-center">
+  <div class="container-fluid text-center p-5">
     <!-- Grid row -->
     <div class="container-fluid ml-0 text-center row d-flex justify-content-center">
 
@@ -130,11 +134,14 @@
   </div>
 
   <!-- Copyright -->
-  <div class="container-fluid text-muted footer-copyright text-left small ml-auto py-1">
+  <div class="container-fluid text-muted footer-copyright text-left small
+   py-3 px-5">
     © 2020 Copyright:
     <a href="ace.utoronto.ca"> Academic & Campus Events University of Toronto </a>
   </div>
-
+  <script>
+    var rellax = new Rellax('.rellax');
+  </script>
   <script src="js/scroll-navbar.js"></script>
 </footer>
 

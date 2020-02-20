@@ -30,7 +30,8 @@
   <!-- Lightbox -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
-
+  <!-- Parallax Effect -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js"></script>
 </head>
 
 <body>
@@ -69,7 +70,8 @@
 <!-- Hero Image -->
 <div class="card card-image hero-container hero-history d-flex flex-column
             text-white text-center align-items-center justify-content-end
-            rounded-0">
+            rounded-0 rellax"
+            data-rellax-speed="-1" data-rellax-zindex="1">
       <!-- Content -->
   <h1 class="h2 my-4 py-2 hero-title .d-none .d-sm-block">History</h1>
   <p class="mb-5 pb-2 px-lg-5 mx-md-5 .d-none .d-lg-block">
@@ -79,8 +81,12 @@
   </p>
 </div>
 <!-- Hero Image -->
+
+<!-- Anchor skip to main content  -->
 <div id="maincontent" tabindex="-1" class="custom-anchor"></div>
-<div class="timeline d-flex flex-column p-5">
+
+<div class="timeline d-flex flex-column p-5 rellax"
+     data-rellax-speed="5" data-rellax-zindex="5" >
     <div class="row d-flex flex-row justify-content-center">
       <div class="left d-flex flex-column align-items-center pr-sm-2"
            aria-labelledby="label1">
@@ -277,7 +283,8 @@
   </div>
 
   <!-- Copyright -->
-  <div class="container-fluid text-muted footer-copyright text-left small ml-auto py-1">
+  <div class="container-fluid text-muted footer-copyright text-left small
+   py-3 px-5">
     © 2020 Copyright:
     <a href="ace.utoronto.ca"> Academic & Campus Events University of Toronto </a>
   </div>
@@ -291,6 +298,8 @@
 		});
 	</script>
 </footer>
-
+<script>
+  var rellax = new Rellax('.rellax');
+</script>
 </body>
 </html>
