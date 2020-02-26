@@ -1,14 +1,20 @@
 html, body {
   color: #002A5C;
+  font-family: 'Raleway', sans-serif;
 }
 
-h1, h2 {
+h1 {
   font-family: 'Cinzel', serif;
 }
 
 .custom-anchor {
   position: relative;
   top: -150px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 /* .................... Navigation Bar Styling .................... */
 
@@ -264,6 +270,13 @@ h3 {
   flex: 1 1;
   border-right: 5px solid #3a3a3a;
 }
+/* BreakPoint Sm */
+@media (max-width: 576px) {
+  .left{
+    border-right: none;
+  }
+}
+
 .row:not(:first-child) > .left{
   padding-bottom: 15vh;
 }
@@ -388,4 +401,10 @@ dt:last-of-type{
 .icon-link{
   color: #002f65;
 }
+
+.icon-link > i {
+  background-color: #002f65;
+  color: white;
+}
+
 .material-icons.md-48 { font-size: 48px; }

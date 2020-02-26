@@ -8,8 +8,8 @@
   <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-  <!-- Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Google Fonts: cinzel & raleway -->
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Raleway&display=swap" rel="stylesheet">
   <!-- Bootstrap core CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -68,7 +68,7 @@
 <!-- Hero Container -->
 <div class="card card-image hero-container hero-access d-flex flex-column mb-4
             text-white text-center align-items-center justify-content-end rellax"
-            data-rellax-speed="-1" data-rellax-zindex="1">
+            data-rellax-speed="-3" data-rellax-zindex="1">
 </div>
 <!-- Hero Container -->
 
@@ -76,16 +76,19 @@
 <div id="maincontent" tabindex="-1" class="custom-anchor"></div>
 
 <div class="container-fluid my-5 py-5 rellax px-0" style="background: white;"
-     data-rellax-speed="5" data-rellax-zindex="5">
+     data-rellax-speed="2" data-rellax-zindex="2">
      <div class="d-flex flex-row justify-content-center">
-       <a class="icon-link p-4 m-3 d-flex flex-column align-items-center" target="_blank"
-       href="https://www.google.com/maps/dir//Convocation+Hall,+31+King's+College+Cir,+Toronto,+ON+M5S+1A1">
-         <i class="material-icons md-48 md-dark" alt="train front side">train</i>
+       <a class="icon-link p-4 m-3 d-flex flex-column align-items-center
+          " target="_blank"
+          href="https://www.google.com/maps/dir//Convocation+Hall,+31+King's+College+Cir,+Toronto,+ON+M5S+1A1">
+         <i class="material-icons p-2 md-48 md-dark rounded-circle"
+            alt="train front side">train</i>
          <h2 class="h4">Getting Here</h2>
        </a>
-       <a class="icon-link p-4 m-3 d-flex flex-column align-items-center" href="http://map.utoronto.ca/parking"
-          target="_blank">
-          <i class="material-icons md-48 md-dark" alt="capital letter P">local_parking</i>
+       <a class="icon-link p-4 m-3 d-flex flex-column align-items-center"
+          href="http://map.utoronto.ca/parking" target="_blank">
+          <i class="material-icons p-2 md-48 md-dark rounded-circle"
+             alt="capital letter P">local_parking</i>
          <h2 class="h4">Find Parking</h2>
        </a>
      </div>
@@ -94,8 +97,8 @@
        <!-- Card 1 -->
        <div class="card p-3">
          <div class="row">
-           <div class="col">
-             <img src="images/acc_door.png" alt="">
+           <div class="col-xl text-center">
+             <img src="images/acc_door.png" class="img-fluid" alt="">
            </div>
            <div class="col">
              <h2 class="card-title h4">Accessible Entrance</h2>
@@ -116,8 +119,8 @@
        <!-- Card 2 -->
        <div class="card p-3">
          <div class="row">
-           <div class="col">
-             <img src="images/doors.png" alt="">
+           <div class="col-xl text-center">
+             <img src="images/doors.png" class="img-fluid" alt="">
            </div>
            <div class="col">
              <h2 class="card-title h4">Main Entrance</h2>
@@ -136,17 +139,36 @@
        </div>
      </div>
 
-     <div class="jumbotron jumpotron-fluid washroom-tile">
+     <div class="jumbotron jumpotron-fluid washroom-tile"
+         style="background: white;">
        <div class="row">
-         <div class="col">
-           photo here
+         <div class="col-lg text-center">
+           <img src="images/plan_key.png" alt="plan with washroom and entrances"
+                class="img-fluid">
          </div>
-         <div class="col">
-           <div class="row">
+         <div class="col text-center text-lg-left">
+           <div class="row flex-column">
              <h3>Universal Washroom</h3>
+             <div class="icon-group">
+               <i class="material-icons md-48 border-right">wc</i>
+               <i class="material-icons md-48">accessible</i>
+             </div>
+             <ul class="text-left">
+               <li>The newer accessible washroom is just inside the accessible
+                 entrance to the right</li>
+               <li>The second accessible washroom is in the rotunda hallway</li>
+             </ul>
            </div>
-           <div class="row">
+           <div class="row flex-column">
              <h3>Main Washroom</h3>
+             <i class="material-icons md-48">wc</i>
+             <ul class="text-left">
+               <li>Located at ground level but do no have oversize accessible
+                   stalls</li>
+             </ul>
+           </div>
+           <div class="row flex-column">
+             <p>If you have seating/mobility requirements, contact us</p>
            </div>
          </div>
        </div>
