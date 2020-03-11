@@ -93,14 +93,14 @@ font-size: 1.5rem;
   background-image:
   linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0)),
   url('../images/convocation.jpg');
-  height: 80vh;
+  height: 100vh;
   background-size: cover;
 }
 #slide2{
   background-image:
   linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0)),
   url('../images/banners.jpg');
-  height: 80vh;
+  height: 100vh;
   background-size: cover;
 }
 
