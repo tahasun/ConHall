@@ -275,9 +275,6 @@ h3 {
 }
 
 /*--------- Accessible Accordion Styling ---------*/
-.Accordion {
-  margin: 30px 0px;
-}
 
 .Accordion > * + * {
     border-top: 1px solid hsl(0, 0%, 82%);
