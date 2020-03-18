@@ -34,8 +34,8 @@
 <body>
 <a href="#maincontent" class="sr-only sr-only-focusable">Skip to main content</a>
 
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-custom">
-    <div class="container">
+<nav class="navbar navbar-expand-xl fixed-top navbar-dark navbar-custom">
+    <div class="container-fluid mx-4 px-4">
         <div class="navbar-brand">
           <img tabindex="0" role="link"
               onclick="goToLink(event, 'https://www.utoronto.ca/')"
@@ -53,12 +53,12 @@
         </button>
         <div class="navbar-collapse collapse" id="MenuBar">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="rental.html">Rental</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link active" href="visit.html">Visit</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="rental.html">Venue Rental</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link active" href="visit.html">Visiting Guests</a></li>
               <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="history.html">History</a></li>
               <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="accessibility.html">Accessibility</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="faq.html">FAQ</a></li>
-              <!-- <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="contact.html">Contact</a></li> -->
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="contact.html">Contact</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="https://governingcouncil.utoronto.ca/convocation" target="_blank">Office of Convocation</a></li>
             </ul>
         </div>
     </div>
@@ -77,9 +77,150 @@
 
 <div class="container-fluid my-5 px-5 pt-5 pb-5 rellax" style="background: white;"
      data-rellax-speed="5" data-rellax-zindex="5">
-     <!--Section: Content-->
-     <p>Aenean aliquet consequat sagittis. Curabitur a est eget quam pellentesque dignissim. Praesent euismod eu augue efficitur dictum. Nulla sit amet tortor condimentum, accumsan nulla eget, pellentesque diam. Donec est nulla, fringilla quis urna vel, auctor semper neque. Aliquam blandit vitae arcu et laoreet. Nunc sollicitudin egestas egestas. Sed efficitur libero quam, a blandit orci tempus placerat. Nunc pellentesque bibendum mauris, non facilisis nibh consequat nec. Sed venenatis risus diam, at iaculis ligula egestas non. Nam maximus, metus sit amet fringilla consectetur, ex erat aliquam quam, eu commodo nunc velit id neque.</p>
-     <!--Section: Content-->
+     <!-- Accordion  -->
+     <dl role="presentation" class="Accordion container" data-allow-toggle>
+       <h2 class="h2">FAQ</h2>
+       <!-- panel1 -->
+       <dt role="heading" aria-level="3">
+         <button class="Accordion-trigger" aria-expanded="false" type="button"
+                 aria-controls="sect1" id="accordion1id">
+           <h3 class="Accordion-title">
+             Where can I buy food and beverages on campus?
+           </h3>
+           <span class="Accordion-icon"></span>
+         </button>
+       </dt>
+       <!-- panel1 -->
+       <dd class="Accordion-panel" id="sect1" role="region" hidden=""
+           aria-labelledby="accordion1id">
+         <div>
+           Food and beverages can be purchased in the Plaza Tent and both
+           Tim Horton’s and Starbucks are located in the Medical Sciences
+           Building and open from 8:00am – 4:00pm Monday to Friday. Please note
+           that food and beverages may not be consumed in Convocation Hal
+         </div>
+       </dd>
+
+       <!-- Panel2 -->
+       <dt role="heading" aria-level="3">
+         <button class="Accordion-trigger" aria-controls="sect2" type="button"
+                 aria-expanded="false" id="accordion2id">
+           <h3 class="Accordion-title">
+             Where is the closest subway station?
+           </h3>
+           <span class="Accordion-icon"></span>
+         </button>
+       </dt>
+       <dd id="sect2" role="region" aria-labelledby="accordion2id" hidden=""
+           class="Accordion-panel">
+         <!-- Panel 2 -->
+         <div>
+           Queen’s Park subway station which is located at the northwest corner of University Avenue and College Stree
+         </div>
+       </dd>
+
+       <!-- Panel 3 -->
+       <dt role="heading" aria-level="3">
+         <button aria-expanded="false" class="Accordion-trigger" type="button"
+                 aria-controls="sect3" id="accordion3id">
+           <h3 class="Accordion-title">
+             Where is there accessible parking?
+           </h3>
+           <span class="Accordion-icon"></span>
+         </button>
+       <dt>
+       <dd id="sect3" role="region" aria-labelledby="accordion3id" hidden=""
+           class="Accordion-panel">
+         <!-- Panel 3 -->
+         <div>
+           Accessible parking spots are found in front of the Medical Sciences
+           Building (1 King’s College Circle) as well as the north end of King’s
+           College Circle in front of JRS Prichard Alumni House (21 King’s
+           College Circle) <!-- (LINK TO TRANSPORTATION WEBSITE)-->
+           <br>
+           <a href="#">Find a parking spot on campus</a>
+         </div>
+       </dd>
+
+       <dt role="heading" aria-level="3">
+         <!-- Panel 4 -->
+         <button aria-expanded="false" class="Accordion-trigger" type="button"
+                 aria-controls="sect4" id="accordion4id">
+           <h3 class="Accordion-title">
+             Are there diaper change tables available?
+           </h3>
+           <span class="Accordion-icon"></span>
+         </button>
+       <dt>
+       <dd id="sect4" role="region" aria-labelledby="accordion4id" hidden=""
+           class="Accordion-panel">
+         <!-- Panel 4 -->
+         <div>
+          Change tables are available in the Women & Men’s washrooms inside
+          Convocation Hall
+         </div>
+       </dd>
+
+       <dt role="heading" aria-level="3">
+         <!-- Panel 5 -->
+         <button aria-expanded="false" class="Accordion-trigger" type="button"
+                 aria-controls="sect5" id="accordion5id">
+           <h3 class="Accordion-title">
+             Can I bring a car seat and stroller into Convocation Hall?
+           </h3>
+           <span class="Accordion-icon"></span>
+         </button>
+       <dt>
+       <dd id="sect5" role="region" aria-labelledby="accordion5id" hidden=""
+           class="Accordion-panel">
+         <!-- Panel 5 -->
+         <div>
+           Yes, strollers can be brought in the hall however car seats and
+           strollers must be checking into the stroller check area.
+         </div>
+       </dd>
+
+       <dt role="heading" aria-level="3">
+         <!-- Panel 6 -->
+         <button aria-expanded="false" class="Accordion-trigger" type="button"
+                 aria-controls="sect6" id="accordion6id">
+           <h3 class="Accordion-title">
+             Is Convocation Hall Accessible?
+           </h3>
+           <span class="Accordion-icon"></span>
+         </button>
+       <dt>
+       <dd id="sect6" role="region" aria-labelledby="accordion6id" hidden=""
+           class="Accordion-panel">
+         <!-- Panel 6 -->
+         <div>
+           Please see
+           <a href="accessibility.html" target="_blank">Accessible page</a>
+         </div>
+       </dd>
+
+       <dt role="heading" aria-level="3">
+         <!-- Panel 7 -->
+         <button aria-expanded="false" class="Accordion-trigger" type="button"
+                 aria-controls="sect7" id="accordion7id">
+           <h3 class="Accordion-title">
+             Where can my Wheel-Trans driver stop for drop-off?
+           </h3>
+           <span class="Accordion-icon"></span>
+         </button>
+       <dt>
+       <dd id="sect7" role="region" aria-labelledby="accordion7id" hidden=""
+           class="Accordion-panel">
+         <!-- Panel 7 -->
+         <div>
+          Wheel-Trans can stop right outside the Accessible Entrance to
+          Convocation Hall, accessible via Kings College Circle. There is a curb
+          cut on the sidewalk leading into the Accessible Entrance.
+         </div>
+       </dd>
+
+     </dl>
+     <!-- End of Accordion -->
 </div>
 
 <footer class="container-fluid page-footer px-0 bg-navy text-white">
@@ -139,6 +280,8 @@
 
   <script src="js/main.js"></script>
   <script src="js/scroll-navbar.js"></script>
+  <!-- Accordion javascript -->
+  <script src="js/accessible-accordion.js"></script>
   <script>
     var rellax = new Rellax('.rellax');
   </script>
