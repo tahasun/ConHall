@@ -1,5 +1,5 @@
 html, body {
-  color: #002A5C;
+  color: #3a3a3a;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -11,6 +11,7 @@ h1 {
   position: relative;
   top: -150px;
 }
+
 
 .img-fluid {
   max-width: 100%;
@@ -105,7 +106,7 @@ font-size: 1.5rem;
 #slide2{
   background-image:
   linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0)),
-  url('../images/banners.jpg');
+  url('../images/cover/sign-1-cover.png');
   height: 80vh;
   background-size: cover;
 }
@@ -199,13 +200,13 @@ font-size: 1.5rem;
 }
 
 
-h2 {
+.custom-h2 {
   font-size: 84px;
   margin: 10px 0;
   width: 100%;
 }
 
-h3 {
+.custom-h3 {
   font-size: 22px;
   margin: 20px 0 0 0;
 }
@@ -232,8 +233,7 @@ h3 {
 /* Custom Jumbotron */
 .custom-jumbotron {
   box-shadow: none;
-  background-color: #78BCB8;
-  color: white;
+  background-color: #99cccc;
 }
 /*******************/
 
