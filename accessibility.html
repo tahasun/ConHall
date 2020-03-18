@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Convocation Hall</title>
+  <title>Accessibility | Convocation Hall</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="images/icons/favicon.ico" type="image/x-icon">
@@ -67,17 +67,15 @@
 
 <!-- Hero Container -->
 <div class="card card-image hero-container hero-access d-flex flex-column mb-4
-            text-white text-center align-items-center justify-content-end rellax"
-            data-rellax-speed="-3" data-rellax-zindex="1">
+            text-white text-center align-items-center justify-content-end">
 </div>
 <!-- Hero Container -->
 
 <!-- Anchor to skip to main content -->
 <div id="maincontent" tabindex="-1" class="custom-anchor"></div>
 
-<div class="container-fluid my-5 py-5 rellax px-0" style="background: white;"
-     data-rellax-speed="2" data-rellax-zindex="2">
-     <div class="d-flex flex-row justify-content-center">
+<div class="container-fluid my-5 py-5 px-0">
+     <div class="d-none d-lg-flex flex-row justify-content-center ">
        <a class="icon-link p-4 m-3 d-flex flex-column align-items-center
           " target="_blank"
           href="https://www.google.com/maps/dir//Convocation+Hall,+31+King's+College+Cir,+Toronto,+ON+M5S+1A1">
@@ -91,9 +89,29 @@
              alt="capital letter P">local_parking</i>
          <h2 class="h4">Find Parking</h2>
        </a>
+       <a class="icon-link p-4 m-3 d-flex flex-column align-items-center"
+          href="#entrances">
+          <i class="material-icons p-2 md-48 md-dark rounded-circle"
+             alt="door slightly open">meeting_room</i>
+         <h2 class="h4">Getting In</h2>
+       </a>
+       <a class="icon-link p-4 m-3 d-flex flex-column align-items-center"
+          href="#washrooms">
+          <i class="material-icons p-2 md-48 md-dark rounded-circle"
+             alt="washroom sign unisex">wc</i>
+         <h2 class="h4">Washrooms</h2>
+       </a>
+       <a class="icon-link p-4 m-3 d-flex flex-column align-items-center"
+          href="#steps">
+          <i class="material-icons p-2 md-48 md-dark rounded-circle"
+             alt="road arrow sign">directions</i>
+         <h2 class="h4">Getting Around</h2>
+       </a>
      </div>
 
-     <div class="card-deck mx-4 my-4 py-4">
+     <!-- Anchor to Getting In (entrances) -->
+     <div id="entrances" tabindex="-1" class="custom-anchor"></div>
+     <div class="card-deck mx-4 my-5 py-4">
        <!-- Card 1 -->
        <div class="card p-3">
          <div class="row">
@@ -108,9 +126,12 @@
                infront of it
              </p>
              <ul>
-               <li>entrance at grade, with more powerful doors inside</li>
-               <li>accessible washroom to right inside this entrance</li>
-               <li>leads to main rotunda (turn left once inside)</li>
+               <li>Entrance at grade, with more powerf doors inside</li>
+               <li>Accessible washroom to right inside this entrance</li>
+               <li>Leads to main rotunda (turn left once inside)</li>
+               <li>Leads to accessible seating on floor level of the main hall</li>
+               <li> <mark>There is no interior elevator in the hall and no accessible
+                 seating in the main hall tiers or in the balconies</mark></li>
              </ul>
            </div>
          </div>
@@ -125,46 +146,48 @@
            <div class="col">
              <h2 class="card-title h4">Main Entrance</h2>
              <p>
-               There are 3 more wood doors on the SE side, facing King's College
+               3 wood doors under the column facing the field. There are 3
+               more wood doors on the SE side, facing King's College
                Road, generally used as exit doors
              </p>
              <ul>
-               <li>3 wood doors under the column facing the field</li>
-               <li>2 steps up from the road (King's College Circle) leads to the
-                   interior rotunda</li>
-                <li>heavy manual doors which are not powered</li>
+               <li>2 steps up from the road (King's College Circle)</li>
+               <li>Leads to the interior rotunda</li>
+               <li>Heavy manual doors which are not powered</li>
              </ul>
            </div>
          </div>
        </div>
      </div>
 
-     <div class="jumbotron jumpotron-fluid washroom-tile"
-         style="background: white;">
+     <!-- Anchor to Washrooms -->
+     <div id="washrooms" tabindex="-1" class="custom-anchor"></div>
+     <div class="jumbotron jumpotron-fluid washroom-tile my-5">
        <div class="row">
-         <div class="col-lg text-center">
+         <div class="col-lg text-center mb-sm-4 mb-xs-4">
            <img src="images/plan_key.png" alt="plan with washroom and entrances"
                 class="img-fluid">
          </div>
          <div class="col text-center text-lg-left">
            <div class="row flex-column">
-             <h3>Universal Washroom</h3>
+             <h2>Universal Washroom</h2>
              <div class="icon-group">
                <i class="material-icons md-48 border-right">wc</i>
                <i class="material-icons md-48">accessible</i>
              </div>
              <ul class="text-left">
-               <li>The newer accessible washroom is just inside the accessible
+               <li>There are two single stall universal washrooms with power doors</li>
+               <li>The accessible washroom is just inside the accessible
                  entrance to the right</li>
                <li>The second accessible washroom is in the rotunda hallway</li>
              </ul>
            </div>
            <div class="row flex-column">
-             <h3>Main Washroom</h3>
+             <h2>Main Washroom</h2>
              <i class="material-icons md-48">wc</i>
              <ul class="text-left">
-               <li>Located at ground level but do no have oversize accessible
-                   stalls</li>
+               <li>Located at ground level</li>
+               <li>Do not have oversize accessible stalls</li>
              </ul>
            </div>
            <div class="row flex-column">
@@ -174,6 +197,110 @@
        </div>
      </div>
 
+     <!-- Anchor to Getting Around (steps) -->
+     <div id="steps" tabindex="-1" class="custom-anchor"></div>
+     <div class="container my-5 py-4 px-4">
+       <div class="row">
+         <div class="col-lg">
+           <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+             <ol class="carousel-indicators">
+               <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselIndicators" data-slide-to="2"></li>
+             </ol>
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img class="d-block img-fluid" src="images/accessible-ramp.png"
+                      alt="accessbile ramp by the stage">
+                 <div class="carousel-caption d-none d-md-block">
+                    <h4>Accessible Ramp</h4>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <img class="d-block img-fluid" src="images/bowl-side.png"
+                      alt="pathway on the edge of the bowl to doors">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h4>Bowl Side</h4>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                 <img class="d-block img-fluid" src="images/bowl-stairs.png"
+                      alt="stairs to upper seat on the bowl">
+                 <div class="carousel-caption d-none d-md-block">
+                   <h4>Bowl upper seats</h4>
+                 </div>
+               </div>
+             </div>
+             <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+             </a>
+             <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+             </a>
+           </div>
+         </div>
+         <div class="col-lg">
+           <h2>Ground Floor</h2>
+           <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+             et blandit augue, sed porta ante. Praesent vitae nisi vitae nulla
+             imperdiet dapibus euismod a dolor. Curabitur id elit semper,
+             sollicitudin quam a, facilisis lectus. Ut mi velit, vehicula ut est
+             nec, lobortis fringilla purus. Fusce suscipit convallis efficitur.
+             In lacus purus, sagittis ac condimentum non, dictum non nisi. Fusce
+             malesuada erat turpis, vitae maximus erat facilisis in. Donec
+             ultricies ante eu luctus aliquet. Cras lectus velit, lobortis vel u
+             rna ut, semper aliquet ex. Praesent tristique risus magna, vel
+             accumsan urna lacinia sed. Sed egestas nec ante vel tincidunt.
+             Sed hendrerit nisl gravida ligula volutpat pharetra. Phasellus
+             sagittis erat sed nulla rhoncus, at egestas enim accumsan. Donec
+             non suscipit magna.
+           </p>
+
+           <ul>
+             <li>Accessible Ramp</li>
+             <li>Accessible seats on the bowl</li>
+             <li>slope</li>
+             <li>upper seats step count: 15</li>
+           </ul>
+         </div>
+
+       </div>
+     </div>
+
+     <div class="container my-5 py-4 px-4">
+       <div class="row">
+         <div class="col">
+           <h2>2nd & 3rd Balcony</h2>
+           <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+             et blandit augue, sed porta ante. Praesent vitae nisi vitae nulla
+             imperdiet dapibus euismod a dolor. Curabitur id elit semper,
+             sollicitudin quam a, facilisis lectus. Ut mi velit, vehicula ut est
+             nec, lobortis fringilla purus. Fusce suscipit convallis efficitur.
+             In lacus purus, sagittis ac condimentum non, dictum non nisi. Fusce
+             malesuada erat turpis, vitae maximus erat facilisis in. Donec
+             ultricies ante eu luctus aliquet. Cras lectus velit, lobortis vel u
+             rna ut, semper aliquet ex. Praesent tristique risus magna, vel
+             accumsan urna lacinia sed. Sed egestas nec ante vel tincidunt.
+             Sed hendrerit nisl gravida ligula volutpat pharetra. Phasellus
+             sagittis erat sed nulla rhoncus, at egestas enim accumsan. Donec
+             non suscipit magna.
+           </p>
+
+           <ul>
+             <li>Step count staircase 25 for each flight</li>
+             <li>no of rows + steps</li>
+             <li>sections accessible groups</li>
+           </ul>
+         </div>
+         <div class="col">
+           <img src="images/staircase.png" class="img-fluid" alt="">
+         </div>
+       </div>
+     </div>
 </div>
 
  <footer class="container-fluid page-footer px-0 bg-navy text-white">
@@ -233,9 +360,6 @@
 
   <script src="js/main.js"></script>
   <script src="js/scroll-navbar.js"></script>
-  <script>
-    var rellax = new Rellax('.rellax');
-  </script>
 
  </footer>
 
