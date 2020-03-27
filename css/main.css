@@ -12,6 +12,10 @@ h1 {
   top: -130px;
 }
 
+.custom-list {
+  list-style-type: none;
+  padding-left: 10px;
+}
 
 .img-fluid {
   max-width: 100%;
