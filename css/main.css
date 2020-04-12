@@ -14,7 +14,8 @@ h1 {
 
 .custom-list {
   list-style-type: none;
-  padding-left: 10px;
+  padding-left: 0px;
+  font-size: 0.8rem;
 }
 
 .img-fluid {
@@ -36,7 +37,7 @@ h1 {
 
 /* Brand Style */
 .navbar-brand > img {
-  width: 200px;
+  width: 160px;
   cursor: pointer;
 }
 #gradientDivider{
@@ -251,8 +252,8 @@ font-size: 1.5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.img-fluid
-{ max-width: 100%;
+.img-fluid{
+  max-width: 100%;
   height: auto;
 }
 
@@ -382,7 +383,7 @@ font-size: 1.5rem;
   border-bottom: 1px solid #383F51;
 }
 
-dt:last-of-type{
+.Accordion-panel.dt:last-of-type{
   border-bottom: 1px solid hsl(0, 0%, 82%);
 }
 /*            Accordion Styling End            */

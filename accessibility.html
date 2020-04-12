@@ -36,7 +36,7 @@
 <a href="#maincontent" class="sr-only sr-only-focusable">Skip to main content</a>
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-custom">
-    <div class="container-fluid mx-4 px-4">
+    <div class="container-fluid">
         <div class="navbar-brand">
           <img tabindex="0" role="link"
               onclick="goToLink(event, 'https://www.utoronto.ca/')"
@@ -53,13 +53,13 @@
           <span class="text-white"><i class="fas fa-bars fa-1x"></i></span>
         </button>
         <div class="navbar-collapse collapse" id="MenuBar">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item mr-2"><a class="nav-link h5 custom-link" href="rental.html">Venue Rental</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h5 custom-link" href="visit.html">Visiting Guests</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h5 custom-link" href="history.html">History</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h5 custom-link active" href="accessibility.html">Accessibility</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h5 custom-link" href="contact.html">Contact</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h5 custom-link" href="https://governingcouncil.utoronto.ca/convocation" target="_blank">Office of Convocation</a></li>
+            <ul class="navbar-nav ml-auto text-right">
+              <li class="nav-item mr-2"><a class="nav-link h6 custom-link" href="rental.html">Venue Rental</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h6 custom-link" href="visit.html">Visiting Guests</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h6 custom-link" href="history.html">History</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h6 custom-link active" href="accessibility.html">Accessibility</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h6 custom-link" href="contact.html">Contact</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h6 custom-link" href="https://governingcouncil.utoronto.ca/convocation" target="_blank">Office of Convocation</a></li>
             </ul>
         </div>
     </div>
@@ -116,45 +116,57 @@
        <div class="card p-3">
          <div class="row">
            <div class="col-xl text-center">
-             <img src="images/acc_door.png" class="img-fluid" alt="">
+             <img src="images/acc_door.png" class="img-fluid pt-4" alt="">
            </div>
-           <div class="col">
+           <div class="col px-2">
              <h2 class="card-title h4 pt-3">Accessible Entrance</h2>
              <p>
-               Dark wood door between collonade and Simcoe hall entrance, Faces
+               Dark wood door between collonade and Simcoe Hall entrance, Faces
                north towards the field and has designated parking directly
-               infront of it
+               in front of it
              </p>
-             <ul class="custom-list">
-               <li> <img src="images/icons/wooden-door.png" style="width: 35px; height: 35px;"alt="">Entrance at grade, with more powerf doors inside</li>
-               <li><img src="images/icons/woman-icon-blue.png" style="width: 35px; height: 35px;"alt="">Accessible washroom to right inside this entrance</li>
-               <li><img src="images/icons/rotunda.png" style="width: 45px; height: 45px;"alt="">Leads to main rotunda (turn left once inside)</li>
-               <li><img src="images/icons/accessible.png" style="width: 35px; height: 35px;"alt="">Leads to accessible seating on floor level of the main hall</li>
-               <li><mark>There is no interior elevator in the hall and no accessible
-                 seating in the main hall tiers or in the balconies</mark></li>
-             </ul>
+             <dl class="row custom-list align-items-center" >
+               <dt class="col-2"><img src="images/icons/wooden-door.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">Entrance at grade, spowered doors inside</dd>
+
+               <dt class="col-2"><img src="images/icons/woman-icon-blue.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">Accessible washroom, inside to right</dd>
+
+               <dt class="col-2"><img src="images/icons/rotunda.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">Main rotunda, inside to the right</dd>
+
+               <dt class="col-2"><img src="images/icons/accessible.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">Accessible seating located on the main level</dd>
+             </dl>
            </div>
          </div>
+         <mark>There is no interior elevator in the hall and no accessible
+           seating in the main hall tiers or in the balconies</mark>
        </div>
 
        <!-- Card 2 -->
        <div class="card p-3">
          <div class="row">
            <div class="col-xl text-center">
-             <img src="images/doors.png" class="img-fluid" alt="">
+             <img src="images/doors.png" class="img-fluid pt-4" alt="">
            </div>
-           <div class="col">
+           <div class="col-xl">
              <h2 class="card-title h4 pt-3">Main Entrance</h2>
              <p>
                3 wood doors under the column facing the field. There are 3
                more wood doors on the SE side, facing King's College
                Road, generally used as exit doors
              </p>
-             <ul class="custom-list">
-               <li><img src="images/icons/steps.png" style="width: 35px; height: 35px;"alt="">2 steps up from the road (King's College Circle)</li>
-               <li><img src="images/icons/rotunda.png" style="width: 45px; height: 45px;"alt="">Leads to the interior rotunda</li>
-               <li><img src="images/icons/metal-door.png" style="width: 35px; height: 35px;"alt="">Heavy manual doors which are not powered</li>
-             </ul>
+             <dl class="row custom-list align-items-center" >
+               <dt class="col-2"><img src="images/icons/steps.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">2 steps up from the road (King's College Circle)</dd>
+
+               <dt class="col-2"><img src="images/icons/rotunda.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">Entry to main rotunda</dd>
+
+               <dt class="col-2"><img src="images/icons/metal-door.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">Non-operable, heavy double doors</dd>
+             </dl>
            </div>
          </div>
        </div>
