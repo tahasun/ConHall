@@ -36,7 +36,7 @@
 <a href="#maincontent" class="sr-only sr-only-focusable">Skip to main content</a>
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-custom">
-    <div class="container">
+    <div class="container-fluid">
         <div class="navbar-brand">
           <img tabindex="0" role="link"
               onclick="goToLink(event, 'https://www.utoronto.ca/')"
@@ -53,13 +53,13 @@
           <span class="text-white"><i class="fas fa-bars fa-1x"></i></span>
         </button>
         <div class="navbar-collapse collapse" id="MenuBar">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="rental.html">Rental</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="visit.html">Visit</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="history.html">History</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link active" href="accessibility.html">Accessibility</a></li>
-              <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="faq.html">FAQ</a></li>
-              <!-- <li class="nav-item mr-2"><a class="nav-link h4 custom-link" href="contact.html">Contact</a></li> -->
+            <ul class="navbar-nav ml-auto text-right">
+              <li class="nav-item mr-2"><a class="nav-link h6 custom-link" href="rental.html">Venue Rental</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h6 custom-link" href="visit.html">Visiting Guests</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h6 custom-link" href="history.html">History</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h6 custom-link active" href="accessibility.html">Accessibility</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h6 custom-link" href="contact.html">Contact</a></li>
+              <li class="nav-item mr-2"><a class="nav-link h6 custom-link" href="https://governingcouncil.utoronto.ca/convocation" target="_blank">Office of Convocation</a></li>
             </ul>
         </div>
     </div>
@@ -116,45 +116,57 @@
        <div class="card p-3">
          <div class="row">
            <div class="col-xl text-center">
-             <img src="images/acc_door.png" class="img-fluid" alt="">
+             <img src="images/acc_door.png" class="img-fluid pt-4" alt="">
            </div>
-           <div class="col">
-             <h2 class="card-title h4">Accessible Entrance</h2>
+           <div class="col px-2">
+             <h2 class="card-title h4 pt-3">Accessible Entrance</h2>
              <p>
-               Dark wood door between collonade and Simcoe hall entrance, Faces
+               Dark wood door between collonade and Simcoe Hall entrance, Faces
                north towards the field and has designated parking directly
-               infront of it
+               in front of it
              </p>
-             <ul>
-               <li>Entrance at grade, with more powerf doors inside</li>
-               <li>Accessible washroom to right inside this entrance</li>
-               <li>Leads to main rotunda (turn left once inside)</li>
-               <li>Leads to accessible seating on floor level of the main hall</li>
-               <li> <mark>There is no interior elevator in the hall and no accessible
-                 seating in the main hall tiers or in the balconies</mark></li>
-             </ul>
+             <dl class="row custom-list align-items-center" >
+               <dt class="col-2"><img src="images/icons/wooden-door.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">Entrance at grade, spowered doors inside</dd>
+
+               <dt class="col-2"><img src="images/icons/woman-icon-blue.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">Accessible washroom, inside to right</dd>
+
+               <dt class="col-2"><img src="images/icons/rotunda.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">Main rotunda, inside to the right</dd>
+
+               <dt class="col-2"><img src="images/icons/accessible.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">Accessible seating located on the main level</dd>
+             </dl>
            </div>
          </div>
+         <mark>There is no interior elevator in the hall and no accessible
+           seating in the main hall tiers or in the balconies</mark>
        </div>
 
        <!-- Card 2 -->
        <div class="card p-3">
          <div class="row">
            <div class="col-xl text-center">
-             <img src="images/doors.png" class="img-fluid" alt="">
+             <img src="images/doors.png" class="img-fluid pt-4" alt="">
            </div>
-           <div class="col">
-             <h2 class="card-title h4">Main Entrance</h2>
+           <div class="col-xl">
+             <h2 class="card-title h4 pt-3">Main Entrance</h2>
              <p>
                3 wood doors under the column facing the field. There are 3
                more wood doors on the SE side, facing King's College
                Road, generally used as exit doors
              </p>
-             <ul>
-               <li>2 steps up from the road (King's College Circle)</li>
-               <li>Leads to the interior rotunda</li>
-               <li>Heavy manual doors which are not powered</li>
-             </ul>
+             <dl class="row custom-list align-items-center" >
+               <dt class="col-2"><img src="images/icons/steps.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">2 steps up from the road (King's College Circle)</dd>
+
+               <dt class="col-2"><img src="images/icons/rotunda.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">Entry to main rotunda</dd>
+
+               <dt class="col-2"><img src="images/icons/metal-door.png" style="width: 30px; height: 30px;"alt=""></dt>
+               <dd class="col-10">Non-operable, heavy double doors</dd>
+             </dl>
            </div>
          </div>
        </div>
@@ -170,26 +182,40 @@
          </div>
          <div class="col text-center text-lg-left">
            <div class="row flex-column">
-             <h2>Universal Washroom</h2>
-             <div class="icon-group">
-               <i class="material-icons md-48 border-right">wc</i>
-               <i class="material-icons md-48">accessible</i>
-             </div>
-             <ul class="text-left">
-               <li>There are two single stall universal washrooms with power doors</li>
-               <li>The accessible washroom is just inside the accessible
-                 entrance to the right</li>
-               <li>The second accessible washroom is in the rotunda hallway</li>
-             </ul>
+             <h2 class="pt-3" >Universal Washroom</h2>
+             <dl class="row align-items-center" >
+               <dt class="col-2">
+                 <div class="icon-group d-flex flex-row">
+                   <i class="material-icons md-48 border-right">wc</i>
+                   <i class="material-icons md-48">accessible</i>
+                 </div>
+               </dt>
+               <dd class="col-10">
+                 <ul class="text-left mb-0">
+                   <li>There are two single stall universal washrooms with power doors</li>
+                   <li>The accessible washroom is just inside the accessible
+                     entrance to the right</li>
+                   <li>The second accessible washroom is in the rotunda hallway</li>
+                 </ul>
+               </dd>
+             </dl>
            </div>
+
            <div class="row flex-column">
              <h2>Main Washroom</h2>
-             <i class="material-icons md-48">wc</i>
-             <ul class="text-left">
-               <li>Located at ground level</li>
-               <li>Do not have oversize accessible stalls</li>
-             </ul>
+             <dl class="row align-items-center" >
+               <dt class="col-2">
+                 <i class="material-icons md-48">wc</i>
+               </dt>
+               <dd class="col-10">
+                 <ul class="text-left mb-0">
+                   <li>Located at ground level</li>
+                   <li>Do not have oversize accessible stalls</li>
+                 </ul>
+               </dd>
+             </dl>
            </div>
+
            <div class="row flex-column">
              <p>If you have seating/mobility requirements, contact us</p>
            </div>
@@ -201,7 +227,9 @@
      <div id="steps" tabindex="-1" class="custom-anchor"></div>
      <div class="container my-5 py-4 px-4">
        <div class="row">
-         <div class="col-lg">
+         <div class="col-lg px-3">
+           <h2>Ground Floor</h2>
+           <!-- Carousel -->
            <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
              <ol class="carousel-indicators">
                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -240,64 +268,62 @@
                <span class="sr-only">Next</span>
              </a>
            </div>
-         </div>
-         <div class="col-lg">
-           <h2>Ground Floor</h2>
-           <p>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-             et blandit augue, sed porta ante. Praesent vitae nisi vitae nulla
-             imperdiet dapibus euismod a dolor. Curabitur id elit semper,
-             sollicitudin quam a, facilisis lectus. Ut mi velit, vehicula ut est
-             nec, lobortis fringilla purus. Fusce suscipit convallis efficitur.
-             In lacus purus, sagittis ac condimentum non, dictum non nisi. Fusce
-             malesuada erat turpis, vitae maximus erat facilisis in. Donec
-             ultricies ante eu luctus aliquet. Cras lectus velit, lobortis vel u
-             rna ut, semper aliquet ex. Praesent tristique risus magna, vel
-             accumsan urna lacinia sed. Sed egestas nec ante vel tincidunt.
-             Sed hendrerit nisl gravida ligula volutpat pharetra. Phasellus
-             sagittis erat sed nulla rhoncus, at egestas enim accumsan. Donec
-             non suscipit magna.
-           </p>
-
-           <ul>
+           <!-- End of Carousel -->
+           <ul class="my-3">
              <li>Accessible Ramp</li>
              <li>Accessible seats on the bowl</li>
              <li>slope</li>
              <li>upper seats step count: 15</li>
            </ul>
          </div>
-
-       </div>
-     </div>
-
-     <div class="container my-5 py-4 px-4">
-       <div class="row">
-         <div class="col">
+         <div class="col-lg">
            <h2>2nd & 3rd Balcony</h2>
-           <p>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-             et blandit augue, sed porta ante. Praesent vitae nisi vitae nulla
-             imperdiet dapibus euismod a dolor. Curabitur id elit semper,
-             sollicitudin quam a, facilisis lectus. Ut mi velit, vehicula ut est
-             nec, lobortis fringilla purus. Fusce suscipit convallis efficitur.
-             In lacus purus, sagittis ac condimentum non, dictum non nisi. Fusce
-             malesuada erat turpis, vitae maximus erat facilisis in. Donec
-             ultricies ante eu luctus aliquet. Cras lectus velit, lobortis vel u
-             rna ut, semper aliquet ex. Praesent tristique risus magna, vel
-             accumsan urna lacinia sed. Sed egestas nec ante vel tincidunt.
-             Sed hendrerit nisl gravida ligula volutpat pharetra. Phasellus
-             sagittis erat sed nulla rhoncus, at egestas enim accumsan. Donec
-             non suscipit magna.
-           </p>
+           <!-- Carousel -->
+           <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+             <ol class="carousel-indicators">
+               <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselIndicators" data-slide-to="2"></li>
+             </ol>
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img class="d-block img-fluid" src="images/accessible-ramp.png"
+                      alt="accessbile ramp by the stage">
+                 <div class="carousel-caption d-none d-md-block">
+                    <h4>Accessible Ramp</h4>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <img class="d-block img-fluid" src="images/bowl-side.png"
+                      alt="pathway on the edge of the bowl to doors">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h4>Bowl Side</h4>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                 <img class="d-block img-fluid" src="images/bowl-stairs.png"
+                      alt="stairs to upper seat on the bowl">
+                 <div class="carousel-caption d-none d-md-block">
+                   <h4>Bowl upper seats</h4>
+                 </div>
+               </div>
+             </div>
+             <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+             </a>
+             <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+             </a>
+           </div>
+           <!-- End of carousel -->
 
-           <ul>
+           <ul class="my-3">
              <li>Step count staircase 25 for each flight</li>
              <li>no of rows + steps</li>
              <li>sections accessible groups</li>
            </ul>
-         </div>
-         <div class="col">
-           <img src="images/staircase.png" class="img-fluid" alt="">
          </div>
        </div>
      </div>
