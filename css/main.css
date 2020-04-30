@@ -142,11 +142,11 @@ font-size: 1.5rem;
   background-size: cover;
 }
 
-.hero-contact {
+/* .hero-contact {
   background-image: linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0.3)),
   url("../images/cover/columns.png");
   background-size: cover;
-}
+} */
 
 .hero-history {
   background-image: linear-gradient(to bottom, rgba(6,22,39,1), rgba(6,22,39,0.3)),
